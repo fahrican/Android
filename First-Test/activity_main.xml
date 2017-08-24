@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wpstars.wp_stars.MainActivity"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WP-Stars OG"
+        android:textSize="36sp"
+        android:id="@+id/company_name"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:src="@drawable/wp_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aber der Name WP-Stars ist neu und meint:
+Wir lieben was wir tun. Wir lieben das Internet, Strategie, Design, Programmieren.
+Und – wir lieben WordPress!"
+        android:textSize="18dp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Adresse:
+Reisnerstrasse 18
+1030 Wien"
+            android:textSize="16dp"
+            android:layout_marginTop="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:text="Öffnungszeiten:
+MO bis FR 9 bis 18 Uhr"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="48dp"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
